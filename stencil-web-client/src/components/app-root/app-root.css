@@ -1,0 +1,33 @@
+header {
+  background: #5851ff;
+  color: white;
+  height: 56px;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+  display: block;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+h1 {
+  font-size: 1.4rem;
+  font-weight: 500;
+  color: #fff;
+  padding: 0 12px;
+}
+
+.container {
+  width: min(100% - 2rem, 60rem);
+  margin-inline: auto;
+}
+
+nav {
+  display: block;
+}
+
+nav a, nav a:visited {
+  display: inline-block;
+  color: #fff;
+  text-decoration: none;
+  padding: 0rem 2rem;
+}
